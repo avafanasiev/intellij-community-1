@@ -23,5 +23,6 @@ jobs:
           use-caches: false
           pr-mode: true
           args: --fail-threshold,0
+          upload-result: true
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
